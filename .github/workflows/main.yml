@@ -3,9 +3,9 @@ name: CI
 on:
  # Atualização na branch “MASTER/MAIN” por push ou pull-request
  push:
-  branches: [ "qa" ]
+  branches: [ "master" ]
  pull_request:
-  branches: [ "qa" ]
+  branches: [ "master" ]
 # JOBS de atividade
 jobs:
  # Task com nome BUILD
